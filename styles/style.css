@@ -241,7 +241,7 @@
  }
  
  .footer {
-  display: grid; 
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 921px 50px 88px;
   font-size: 18px;
