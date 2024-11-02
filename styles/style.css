@@ -1,5 +1,5 @@
  * {
-  box-sizing:border-box;
+  box-sizing: border-box;
  }
 
  body {
@@ -66,7 +66,7 @@
   position: relative;
   padding: 165px 50px 147px;
   width: 100%;
-  color:rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
   font-size: 100px;
   line-height: 115px;
   z-index: 2;
@@ -84,7 +84,7 @@
 
  .aligned-text_center {
   display: block;
-  text-align:center;
+  text-align: center;
   line-height: 0.3em;
  }
  
