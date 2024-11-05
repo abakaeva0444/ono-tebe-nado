@@ -35,6 +35,7 @@
  }
 
  .address {
+  font-style: normal; 
   padding-left: 220px;
   font-size: 18px;
   line-height: 24px;
@@ -133,6 +134,8 @@
   padding: 0 0 27px 40px;
   font-size: 40px;
   text-transform: uppercase;
+  height: 100%; 
+  width: 100%;
  }
 
  .lots__card-list {
@@ -143,14 +146,14 @@
  }
    
  .lots__card-list-item {
-  display: block;
-  flex-grow: 1;
+   flex-grow: 1;
+   width: 334px;
+   min-height: 563px;
  }
     
  .card-link {
   display: block;
   text-decoration: none;
-  height: 100%;
  }
     
  .card {
@@ -248,7 +251,11 @@
   gap: 185px;
  }
 
- .footer__menu-list {
+ .footer__address {
+  font-style: normal;
+ }
+
+.footer__menu-list {
   text-align: center;
   list-style-type: none;
  }
